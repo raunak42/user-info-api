@@ -12,7 +12,7 @@ app.post("/send-user-data", (req, res) => {
     const body = req.body;
     console.log("Received body:", body);
 
-    res.json({message:"Hello"})
+    res.json({message:"Hello there, this is from vercel."})
 });
 
 const PORT = 3000;
